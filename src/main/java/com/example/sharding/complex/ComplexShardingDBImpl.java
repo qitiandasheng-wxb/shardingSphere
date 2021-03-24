@@ -11,9 +11,7 @@ import java.util.Collection;
 
 @Configuration
 public class ComplexShardingDBImpl implements ComplexKeysShardingAlgorithm {
-
-
-
+    String sta="UAT";
 //    ComplexShardingStrategy
     @Override
     public Collection<String> doSharding(Collection availableTargetNames, ComplexKeysShardingValue shardingValue) {
